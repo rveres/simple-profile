@@ -1,0 +1,53 @@
+.container {
+    margin-top: 4vh;
+    text-align: center;
+}
+
+div.profile-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-bottom: 5vh;
+}
+
+div.cover-wrapper {
+    display: block;
+    text-align: center;
+}
+
+h4 {
+    display: inline;
+    margin-right: 0.35em;
+    font-weight: normal;
+
+    p {
+        display: inline;
+    }
+}
+
+img.profile {
+    height: 25vh;
+}
+
+img.cover {
+    height: 35vh;
+}
+
+.link-holder {
+    margin-top: -2vh;
+}
+
+a.link-caption {
+    display: inline-block;
+    margin-top: 1vh;
+}
+
+.cover-caption {
+    font-style: italic;
+    margin-bottom: 5vh;
+}
+
+.copyright {
+    font-size: small;
+    margin-bottom: -1vh;
+}
