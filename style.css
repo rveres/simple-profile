@@ -39,13 +39,13 @@ img.cover {
     max-width: 55vw;
 }
 
-.link-holder {
-    margin-top: -2vh;
+h1 {
+    margin-bottom: 1vh;
 }
 
-a.link-caption {
+.link-caption {
     display: inline-block;
-    margin-top: 1vh;
+    margin-top: 0.5%;
 }
 
 .cover-caption {
