@@ -1,10 +1,7 @@
 body {
     min-height: 100%;
-    margin-bottom: 50px;
-}
-
-.container {
     margin-top: 4vh;
+    margin-bottom: 50px;
     text-align: center;
     overflow-wrap: break-word;
 }
@@ -18,17 +15,6 @@ div.profile-wrapper {
 
 div.cover-wrapper {
     display: inline-table;
-    text-align: center;
-}
-
-h4 {
-    display: inline;
-    margin-right: 0.35em;
-    font-weight: normal;
-
-    p {
-        display: inline;
-    }
 }
 
 img.profile {
@@ -36,7 +22,7 @@ img.profile {
 }
 
 img.cover {
-    max-width: 55vw;
+    max-width: 60vw;
 }
 
 h1 {
@@ -45,7 +31,17 @@ h1 {
 
 .link-caption {
     display: inline-block;
-    margin-top: 0.5%;
+    margin-top: 0;
+    margin-right: 0.35em;
+    font-weight: normal;
+}
+
+.email-caption {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 4%;
+    margin-right: 0.35em;
+    font-weight: normal;
 }
 
 .cover-caption {
@@ -56,15 +52,13 @@ h1 {
 }
 
 .footer-wrapper {
-    position: fixed;
+    position: absolute;
     height: 50px;
     bottom: 0px;
     left: 0px;
     right: 0px;
+    margin-top: auto;
     margin-bottom: 4%;
     text-align: center;
-}
-
-.copyright {
     font-size: small;
 }
