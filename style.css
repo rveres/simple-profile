@@ -50,17 +50,12 @@ h1 {
     display: table-caption;
     caption-side: bottom;
     font-style: italic;
-    margin-bottom: 5vh;
+    margin-bottom: 4vh;
 }
 
 .footer-wrapper {
-    position: absolute;
-    height: 50px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-top: auto;
-    margin-bottom: 4vh;
+    position: relative;
+    margin-bottom: 2vh;
     text-align: center;
     font-size: small;
 }
