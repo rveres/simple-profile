@@ -1,7 +1,6 @@
 body {
     min-height: 100%;
     margin-top: 4vh;
-    margin-bottom: 50px;
     text-align: center;
     overflow-wrap: break-word;
 }
@@ -19,12 +18,12 @@ div.cover-wrapper {
 
 img.profile {
     max-width: 35vw;
-    max-height: 25vh;
+    max-height: 20vh;
 }
 
 img.cover {
     max-width: 75vw;
-    max-height: 35vh;
+    max-height: 40vh;
 }
 
 h1 {
@@ -50,12 +49,11 @@ h1 {
     display: table-caption;
     caption-side: bottom;
     font-style: italic;
-    margin-bottom: 4vh;
 }
 
 .footer-wrapper {
     position: relative;
-    margin-bottom: 2vh;
     text-align: center;
     font-size: small;
+    margin-top: 3vh;
 }
