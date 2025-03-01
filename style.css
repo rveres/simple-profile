@@ -1,8 +1,25 @@
+@font-face {
+    font-family: 'Sysfont';
+    src: url('fonts/sysfont.woff2') format('woff2'),
+        url('fonts/sysfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'W95fa';
+    src: url('fonts/w95fa.woff2') format('woff2'),
+        url('fonts/w95fa.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     min-height: 100%;
     margin-top: 4vh;
     text-align: center;
     overflow-wrap: break-word;
+    font-family: "Sysfont", "Times New Roman";
 }
 
 div.profile-wrapper {
@@ -43,12 +60,13 @@ h1 {
     margin-bottom: 4%;
     margin-right: 0.35em;
     font-weight: normal;
+    font-family: "W95fa";
 }
 
 .cover-caption {
     display: table-caption;
     caption-side: bottom;
-    font-style: italic;
+    margin-top: 0.5vh;
 }
 
 .footer-wrapper {
