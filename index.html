@@ -4,25 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="description" content="Robert Veres' personal website."/>
+    <meta name="description" content="Robert Veres' personal website." />
     <title>Robert Veres</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <main>
       <div class="profile-wrapper">
+        <div class="lang-switcher">
+          <a href="" onclick="return switch_lang('en')" class="lang-link">en</a>
+          <a href="" onclick="return switch_lang('hu')" class="lang-link">hu</a>
+          <a href="" onclick="return switch_lang('cn')" class="lang-link">cn</a>
+          <a href="" onclick="return switch_lang('jp')" class="lang-link">jp</a>
+          <a href="" onclick="return switch_lang('vn')" class="lang-link">vn</a>
+          <a href="" onclick="return switch_lang('de')" class="lang-link">de</a>
+        </div>
         <img src="images/profile.jpg" alt="Robert" class="profile" />
-        <h1>Robert Veres</h1>
-        <p class="email-caption">me [at] robertveres.com</p>
+        <h1 id="name-title">Robert Veres</h1>
+        <p id="email-caption" class="email-caption">me [at] robertveres.com</p>
         <br />
         <div class="links-holder">
-          <a href="https://github.com/rveres" class="link-caption">github</a>
+          <a
+            href="https://github.com/rveres"
+            id="github-link"
+            class="link-caption"
+            >github</a
+          >
           <a
             href="https://www.linkedin.com/in/robert-veres"
+            id="linkedin-link"
             class="link-caption"
             >linkedin</a
           >
-          <a href="" onclick="return sel_img();" class="link-caption">magic!</a>
+          <a
+            href=""
+            onclick="return sel_img();"
+            id="magic-link"
+            class="link-caption"
+            >magic!</a
+          >
           <!--
           <a href="https://rveres.blogspot.com/" class="link-caption">blogger</a>
           -->
@@ -35,8 +55,9 @@
       </div>
     </main>
     <div class="footer-wrapper">
-      <p class="copyright">
-        © 2025 Robert Veres.<br/>Pictures taken with Canon AE-1 Program or Ricoh FF-3D AF Super.
+      <p id="copyright-text" class="copyright">
+        © 2025 Robert Veres.<br />Pictures taken with Canon AE-1 Program or
+        Ricoh FF-3D AF Super.
       </p>
     </div>
     <script src="script.js"></script>

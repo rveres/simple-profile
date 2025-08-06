@@ -1,4 +1,4 @@
-COVER_IMAGES_DICT = {
+const COVER_IMAGES_DICT = {
   "1": "Kiso-Fukushima. Fall 2022. Kodak Gold 200.",
   "2": "Atsugi. Spring 2023. Ilford Delta 400.",
   "3": "Tsujido. Spring 2023. Kodak Gold 200.",
@@ -70,7 +70,67 @@ COVER_IMAGES_DICT = {
   "69": "Ho Chi Minh City. Spring 2024.",
   "70": "Tsujido. Spring 2023. Ilford Delta 400.",
   "71": "Atami. Spring 2023. Ilford Delta 400.",
-  "72": "Atami. Spring 2023. Ilford Delta 400."
+  "72": "Atami. Spring 2023. Ilford Delta 400.",
+};
+
+var CURR_LANG = "en";
+const CJK_LANGS = ["cn", "jp", "vn"];
+
+const TRANSLATIONS = {
+  en: {
+    "name-title": "Robert Veres",
+    "email-caption": "me [@] robertveres.com",
+    "github-link": "github",
+    "linkedin-link": "linkedin",
+    "magic-link": "magic!",
+    "copyright-text":
+      "© 2025 Robert Veres.<br/>Pictures taken with Canon AE-1 Program or Ricoh FF-3D AF Super.",
+  },
+  hu: {
+    "name-title": "Veres Róbert",
+    "email-caption": "me [@] robertveres.com",
+    "github-link": "github",
+    "linkedin-link": "linkedin",
+    "magic-link": "magikus!",
+    "copyright-text":
+      "© 2025 Veres Róbert.<br/>Képek: Canon AE-1 Program vagy Ricoh FF-3D AF Super.",
+  },
+  cn: {
+    "name-title": "罗伯特",
+    "email-caption": "3928225149 [@] qq.com",
+    "github-link": "github",
+    "linkedin-link": "领英",
+    "magic-link": "魔法!",
+    "copyright-text":
+      "© 2025 罗伯特.<br/>使用佳能 AE-1 程序或理光 FF-3D AF Super 拍摄的照片。",
+  },
+  jp: {
+    "name-title": "ベレス・ロバート",
+    "email-caption": "me [@] robertveres.com",
+    "github-link": "ギットハブ",
+    "linkedin-link": "リンクトイン",
+    "magic-link": "魔法!",
+    "copyright-text":
+      "© 2025 ベレス・ロバート.<br/>キヤノン AE-1 プログラムまたはリコー FF-3D AF スーパーで撮影した写真。",
+  },
+  vn: {
+    "name-title": "Veres Robert",
+    "email-caption": "me [@] robertveres.com",
+    "github-link": "github",
+    "linkedin-link": "linkedin",
+    "magic-link": "ảo thuật!",
+    "copyright-text":
+      "© 2025 Veres Robert.<br/>Ảnh chụp bằng Canon AE-1 Program hoặc Ricoh FF-3D AF Super.",
+  },
+  de: {
+    "name-title": "Robert Veres",
+    "email-caption": "me [@] robertveres.com",
+    "github-link": "github",
+    "linkedin-link": "linkedin",
+    "magic-link": "magie!",
+    "copyright-text":
+      "© 2025 Veres Robert.<br/>Bilder aufgenommen mit Canon AE-1 Program oder Ricoh FF-3D AF Super.",
+  },
 };
 
 num_cover_img = Object.keys(COVER_IMAGES_DICT).length;
@@ -79,6 +139,43 @@ last_img_idx = -1;
 
 cover_img_elem = document.getElementById("cover-img");
 cover_caption_elem = document.getElementById("cover-caption");
+
+function switch_lang(lang) {
+  if (lang === CURR_LANG) {
+    return false;
+  }
+
+  const dict = TRANSLATIONS[lang];
+  for (const id in dict) {
+    const el = document.getElementById(id);
+    if (el) el.innerHTML = dict[id];
+  }
+
+  const font_targets = [
+    document.getElementById("name-title"),
+    document.getElementById("email-caption"),
+    document.getElementById("github-link"),
+    document.getElementById("linkedin-link"),
+    document.getElementById("magic-link"),
+    document.getElementById("copyright-text"),
+  ];
+
+  if (CJK_LANGS.includes(CURR_LANG) && !CJK_LANGS.includes(lang)) {
+    font_targets.forEach((el) => {
+      if (!el) return;
+      el.classList.remove("cjk-font");
+    });
+  } else if (!CJK_LANGS.includes(CURR_LANG) && CJK_LANGS.includes(lang)) {
+    font_targets.forEach((el) => {
+      if (!el) return;
+      el.classList.add("cjk-font");
+    });
+  }
+
+  CURR_LANG = lang;
+
+  return false;
+}
 
 function sel_img() {
   last_img_idx = cover_img_idx;

@@ -14,6 +14,10 @@
     font-style: normal;
 }
 
+.cjk-font {
+  font-family: "Noto Sans CJK SC", "Microsoft YaHei", "SimHei", "Meiryo", "MS PGothic", "Arial Unicode MS", Arial, sans-serif;
+}
+
 body {
     min-height: 100%;
     margin-top: 4vh;
@@ -67,6 +71,15 @@ h1 {
     display: table-caption;
     caption-side: bottom;
     margin-top: 0.5vh;
+}
+
+.lang-link {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 4%;
+    margin-right: 0.35em;
+    font-weight: normal;
+    font-family: "W95fa";
 }
 
 .footer-wrapper {
