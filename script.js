@@ -102,7 +102,7 @@ const TRANSLATIONS = {
     "linkedin-link": "领英",
     "magic-link": "魔法!",
     "copyright-text":
-      "© 2025 罗伯特.<br/>使用佳能 AE-1 程序或理光 FF-3D AF Super 拍摄的照片。",
+      "© 2025 罗伯特。<br/>使用佳能 AE-1 程序或理光 FF-3D AF Super 拍摄的照片。",
   },
   jp: {
     "name-title": "ベレス・ロバート",
@@ -111,7 +111,7 @@ const TRANSLATIONS = {
     "linkedin-link": "リンクトイン",
     "magic-link": "魔法!",
     "copyright-text":
-      "© 2025 ベレス・ロバート.<br/>キヤノン AE-1 プログラムまたはリコー FF-3D AF スーパーで撮影した写真。",
+      "© 2025 ベレス・ロバート。<br/>キヤノン AE-1 プログラムまたはリコー FF-3D AF スーパーで撮影した写真。",
   },
   vn: {
     "name-title": "Veres Robert",
