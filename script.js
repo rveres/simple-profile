@@ -68,6 +68,9 @@ COVER_IMAGES_DICT = {
   "67": "Ho Chi Minh City. Spring 2024.",
   "68": "Ho Chi Minh City. Spring 2024.",
   "69": "Ho Chi Minh City. Spring 2024.",
+  "70": "Tsujido. Spring 2023. Ilford Delta 400.",
+  "71": "Atami. Spring 2023. Ilford Delta 400.",
+  "72": "Atami. Spring 2023. Ilford Delta 400."
 };
 
 num_cover_img = Object.keys(COVER_IMAGES_DICT).length;
