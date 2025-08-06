@@ -129,7 +129,7 @@ const TRANSLATIONS = {
     "linkedin-link": "linkedin",
     "magic-link": "magie!",
     "copyright-text":
-      "© 2025 Veres Robert.<br/>Bilder aufgenommen mit Canon AE-1 Program oder Ricoh FF-3D AF Super.",
+      "© 2025 Robert Veres.<br/>Bilder aufgenommen mit Canon AE-1 Program oder Ricoh FF-3D AF Super.",
   },
 };
 
