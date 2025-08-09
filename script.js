@@ -131,6 +131,15 @@ const TRANSLATIONS = {
     "copyright-text":
       "© 2025 Robert Veres.<br/>Bilder aufgenommen mit Canon AE-1 Program oder Ricoh FF-3D AF Super.",
   },
+  ru: {
+    "name-title": "Роберт Верес",
+    "email-caption": "me [@] robertveres.com",
+    "github-link": "гитхаб",
+    "linkedin-link": "linkedin",
+    "magic-link": "магия!",
+    "copyright-text":
+      "© 2025 Роберт Верес.<br/>Снимки, сделанные с помощью программы Канон AЭ-1 или Рикох ФФ-3D АФ Супер.",
+  },
 };
 
 num_cover_img = Object.keys(COVER_IMAGES_DICT).length;
@@ -169,6 +178,18 @@ function switch_lang(lang) {
     font_targets.forEach((el) => {
       if (!el) return;
       el.classList.add("cjk-font");
+    });
+  }
+  
+  if (CURR_LANG === "ru" && lang !== "ru") {
+    font_targets.forEach((el) => {
+      if (!el) return;
+      el.classList.remove("ru-font");
+    });
+  } else if (CURR_LANG !== "ru" && lang === "ru") {
+    font_targets.forEach((el) => {
+      if (!el) return;
+      el.classList.add("ru-font");
     });
   }
 
