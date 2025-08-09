@@ -102,7 +102,7 @@ const TRANSLATIONS = {
     "linkedin-link": "领英",
     "magic-link": "魔法!",
     "copyright-text":
-      "© 2025 罗伯特。<br/>使用佳能 AE-1 程序或理光 FF-3D AF Super 拍摄的照片。",
+      "© 2025 罗伯特。<br/>使用佳能 AE-1 或理光 FF-3D AF Super 拍摄的照片。",
   },
   jp: {
     "name-title": "ベレス・ロバート",
@@ -138,7 +138,7 @@ const TRANSLATIONS = {
     "linkedin-link": "linkedin",
     "magic-link": "магия!",
     "copyright-text":
-      "© 2025 Роберт Верес.<br/>Снимки, сделанные с помощью программы Канон AЭ-1 или Рикох ФФ-3D АФ Супер.",
+      "© 2025 Роберт Верес.<br/>Снимки, сделанные с помощью Канон AЭ-1 или Рикох ФФ-3D АФ Супер.",
   },
 };
 
