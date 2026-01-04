@@ -84,7 +84,7 @@ const TRANSLATIONS = {
     "linkedin-link": "linkedin",
     "magic-link": "magic!",
     "copyright-text":
-      "© 2025 Robert Veres.<br/>Pictures taken with Canon AE-1 Program or Ricoh FF-3D AF Super.",
+      "© 2026 Robert Veres.<br/>Pictures taken with Canon AE-1 Program or Ricoh FF-3D AF Super.",
   },
   hu: {
     "name-title": "Veres Róbert",
@@ -93,7 +93,7 @@ const TRANSLATIONS = {
     "linkedin-link": "linkedin",
     "magic-link": "magikus!",
     "copyright-text":
-      "© 2025 Veres Róbert.<br/>Képek: Canon AE-1 Program vagy Ricoh FF-3D AF Super.",
+      "© 2026 Veres Róbert.<br/>Képek: Canon AE-1 Program vagy Ricoh FF-3D AF Super.",
   },
   cn: {
     "name-title": "罗伯特",
@@ -102,7 +102,7 @@ const TRANSLATIONS = {
     "linkedin-link": "领英",
     "magic-link": "魔法!",
     "copyright-text":
-      "© 2025 罗伯特。<br/>使用佳能 AE-1 或理光 FF-3D AF Super 拍摄的照片。",
+      "© 2026 罗伯特。<br/>使用佳能 AE-1 或理光 FF-3D AF Super 拍摄的照片。",
   },
   jp: {
     "name-title": "ベレス・ロバート",
@@ -111,7 +111,7 @@ const TRANSLATIONS = {
     "linkedin-link": "リンクトイン",
     "magic-link": "魔法!",
     "copyright-text":
-      "© 2025 ベレス・ロバート。<br/>キヤノン AE-1 プログラムまたはリコー FF-3D AF スーパーで撮影した写真。",
+      "© 2026 ベレス・ロバート。<br/>キヤノン AE-1 プログラムまたはリコー FF-3D AF スーパーで撮影した写真。",
   },
   vn: {
     "name-title": "Veres Robert",
@@ -120,7 +120,7 @@ const TRANSLATIONS = {
     "linkedin-link": "linkedin",
     "magic-link": "ảo thuật!",
     "copyright-text":
-      "© 2025 Veres Robert.<br/>Ảnh chụp bằng Canon AE-1 Program hoặc Ricoh FF-3D AF Super.",
+      "© 2026 Veres Robert.<br/>Ảnh chụp bằng Canon AE-1 Program hoặc Ricoh FF-3D AF Super.",
   },
   de: {
     "name-title": "Robert Veres",
@@ -129,7 +129,7 @@ const TRANSLATIONS = {
     "linkedin-link": "linkedin",
     "magic-link": "magie!",
     "copyright-text":
-      "© 2025 Robert Veres.<br/>Bilder aufgenommen mit Canon AE-1 Program oder Ricoh FF-3D AF Super.",
+      "© 2026 Robert Veres.<br/>Bilder aufgenommen mit Canon AE-1 Program oder Ricoh FF-3D AF Super.",
   },
   ru: {
     "name-title": "Роберт Верес",
@@ -138,7 +138,7 @@ const TRANSLATIONS = {
     "linkedin-link": "linkedin",
     "magic-link": "магия!",
     "copyright-text":
-      "© 2025 Роберт Верес.<br/>Снимки, сделанные с помощью Канон AЭ-1 или Рикох ФФ-3D АФ Супер.",
+      "© 2026 Роберт Верес.<br/>Снимки, сделанные с помощью Канон AЭ-1 или Рикох ФФ-3D АФ Супер.",
   },
 };
 
