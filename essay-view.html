@@ -47,14 +47,14 @@
 
       // indentation (4 spaces or tab)
       safe = safe.replace(/^(?: {4}|\t)(.+)$/gm,
-        '<div class="indent">$1</div>'
+        '<p class="indent">$1</p>'
       );
 
       // Preserve paragraphs
       return safe
         .split("\n\n")
         .map(p => {
-          if (p.startsWith('<div class="indent">')) return p;
+          if (p.startsWith('<p class="indent">')) return p;
           return `<p>${p.replace(/\n/g, "<br>")}</p>`;
         })
         .join("");

@@ -19,7 +19,7 @@ body {
     max-width: 700px;
     margin: 40px auto;
     padding: 0 20px;
-    line-height: 1.6;
+    line-height: 1.4;
     text-align: left;
     overflow-wrap: break-word;
     font-family: "Sysfont", "Times New Roman";
@@ -44,8 +44,6 @@ h1 {
 
 .indent {
   margin-left: 2em;
-  margin-top: 0.75em;
-  margin-bottom: 0.75em;
 }
 
 .footer-wrapper {
