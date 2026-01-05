@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Sysfont';
+    src: url('../fonts/sysfont.woff2') format('woff2'),
+        url('../fonts/sysfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'W95fa';
+    src: url('../fonts/w95fa.woff2') format('woff2'),
+        url('../fonts/w95fa.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cjk-font {
+    font-family: "Noto Sans CJK SC", "Microsoft YaHei", "SimHei", "Meiryo", "MS PGothic", "Arial Unicode MS", Arial, sans-serif;
+}
+
+.ru-font {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100%;
+    margin-top: 4vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    overflow-wrap: break-word;
+    font-family: "Sysfont", "Times New Roman";
+}
+
+h1 {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.home-link {
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 0.35em;
+    font-weight: normal;
+    font-family: "W95fa";
+}
+
+li {
+    margin-bottom: 0.6em;
+    line-height: 1.15;
+}
+
+.footer-wrapper {
+    position: relative;
+    text-align: left;
+    font-size: small;
+    margin-top: 3vh;
+}

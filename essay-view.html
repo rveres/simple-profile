@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Essay</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+    }
+    pre {
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <a href="/" class="home-link">home</a>
+  <a href="/essays" class="home-link">essays</a>
+
+  <article id="content">Loading…</article>
+
+  <div class="footer-wrapper">
+    <p id="copyright-text" class="copyright">
+        © 2026 Robert Veres.
+    </p>
+  </div>
+  
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const file = params.get("file");
+
+    if (!file) {
+      document.getElementById("content").textContent = "No essay selected.";
+    } else {
+      fetch(`/essays/${file}`)
+        .then(r => r.text())
+        .then(text => {
+          document.getElementById("content").innerHTML =
+            `<pre>${escapeHtml(text)}</pre>`;
+        });
+    }
+
+    function escapeHtml(str) {
+      return str.replace(/[&<>"']/g, c => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        "\"": "&quot;",
+        "'": "&#39;"
+      })[c]);
+    }
+  </script>
+</body>
+</html>

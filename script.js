@@ -82,6 +82,7 @@ const TRANSLATIONS = {
     "email-caption": "me [@] robertveres.com",
     "github-link": "github",
     "linkedin-link": "linkedin",
+    "essay-link": "essays",
     "magic-link": "magic!",
     "copyright-text":
       "© 2026 Robert Veres.<br/>Pictures taken with Canon AE-1 Program or Ricoh FF-3D AF Super.",
@@ -91,6 +92,7 @@ const TRANSLATIONS = {
     "email-caption": "me [@] robertveres.com",
     "github-link": "github",
     "linkedin-link": "linkedin",
+    "essay-link": "esszék",
     "magic-link": "magikus!",
     "copyright-text":
       "© 2026 Veres Róbert.<br/>Képek: Canon AE-1 Program vagy Ricoh FF-3D AF Super.",
@@ -100,6 +102,7 @@ const TRANSLATIONS = {
     "email-caption": "3928225149 [@] qq.com",
     "github-link": "github",
     "linkedin-link": "领英",
+    "essay-link": "论文",
     "magic-link": "魔法!",
     "copyright-text":
       "© 2026 罗伯特。<br/>使用佳能 AE-1 或理光 FF-3D AF Super 拍摄的照片。",
@@ -109,6 +112,7 @@ const TRANSLATIONS = {
     "email-caption": "me [@] robertveres.com",
     "github-link": "ギットハブ",
     "linkedin-link": "リンクトイン",
+    "essay-link": "エッセイ",
     "magic-link": "魔法!",
     "copyright-text":
       "© 2026 ベレス・ロバート。<br/>キヤノン AE-1 プログラムまたはリコー FF-3D AF スーパーで撮影した写真。",
@@ -118,6 +122,7 @@ const TRANSLATIONS = {
     "email-caption": "me [@] robertveres.com",
     "github-link": "github",
     "linkedin-link": "linkedin",
+    "essay-link": "bài luận",
     "magic-link": "ảo thuật!",
     "copyright-text":
       "© 2026 Veres Robert.<br/>Ảnh chụp bằng Canon AE-1 Program hoặc Ricoh FF-3D AF Super.",
@@ -127,6 +132,7 @@ const TRANSLATIONS = {
     "email-caption": "me [@] robertveres.com",
     "github-link": "github",
     "linkedin-link": "linkedin",
+    "essay-link": "aufsätze",
     "magic-link": "magie!",
     "copyright-text":
       "© 2026 Robert Veres.<br/>Bilder aufgenommen mit Canon AE-1 Program oder Ricoh FF-3D AF Super.",
@@ -136,6 +142,7 @@ const TRANSLATIONS = {
     "email-caption": "me [@] robertveres.com",
     "github-link": "гитхаб",
     "linkedin-link": "linkedin",
+    "essay-link": "эссе",
     "magic-link": "магия!",
     "copyright-text":
       "© 2026 Роберт Верес.<br/>Снимки, сделанные с помощью Канон AЭ-1 или Рикох ФФ-3D АФ Супер.",
@@ -165,6 +172,7 @@ function switch_lang(lang) {
     document.getElementById("email-caption"),
     document.getElementById("github-link"),
     document.getElementById("linkedin-link"),
+    document.getElementById("essay-link"),
     document.getElementById("lol-link"),
     document.getElementById("magic-link"),
     document.getElementById("copyright-text"),
@@ -181,7 +189,7 @@ function switch_lang(lang) {
       el.classList.add("cjk-font");
     });
   }
-  
+
   if (CURR_LANG === "ru" && lang !== "ru") {
     font_targets.forEach((el) => {
       if (!el) return;
