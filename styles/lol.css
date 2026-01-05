@@ -15,11 +15,11 @@
 }
 
 .cjk-font {
-  font-family: "Noto Sans CJK SC", "Microsoft YaHei", "SimHei", "Meiryo", "MS PGothic", "Arial Unicode MS", Arial, sans-serif;
+    font-family: "Noto Sans CJK SC", "Microsoft YaHei", "SimHei", "Meiryo", "MS PGothic", "Arial Unicode MS", Arial, sans-serif;
 }
 
 .ru-font {
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 body {
@@ -37,12 +37,17 @@ h1 {
     margin-bottom: 1vh;
 }
 
-.lang-link {
+.home-link {
     display: inline-block;
     margin-top: 0;
     margin-right: 0.35em;
     font-weight: normal;
     font-family: "W95fa";
+}
+
+li {
+    margin-bottom: 0.8em;
+    line-height: 0.8;
 }
 
 .footer-wrapper {
