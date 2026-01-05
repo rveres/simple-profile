@@ -80,5 +80,3 @@ For three weeks, it is probably best to do the usual trip through Japan, startin
   - Beppu/Oita: Widely known as having the best onsens in Japan. If you go to a ryokan (traditional Japanese “hotel”), you can also have some amazing views as well. 
   - Kumamoto: the city has some nice landmarks and is a great way to check out the large national park around Aso-san, a big volcano. 
   - Kagoshima: the southernmost big city in Kyushu: there is a lot of history here as well, and the background is a bit separated from the rest of Japan, since there was a different ruling clan (the Satsuma clan). You can see some amazing traditional Japanese architecture, as well as a great view of Sakurajima, another volcano. In a small town about 1,5 hours by an old diesel train from central Kagoshima is also my favorite onsen: https://www.kagoshima-kankou.com/for/attractions/10674. Admittedly, it takes about a whole day to reach, but for the sand bath and the amazing view of Sakurajima, I think it is worth it. 
-
-
