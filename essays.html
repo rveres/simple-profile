@@ -28,7 +28,7 @@
         document.getElementById("essay-list").innerHTML =
           essays.map(e =>
             `<li>
-              <a href="/essay-view.html?file=${encodeURIComponent(e.file)}">${e.title}</a><small>(${e.date})</small>
+              <a href="/essay-view.html?file=${encodeURIComponent(e.file)}">${e.title}</a>   <small>(${e.date})</small>
             </li>`
           ).join("");
       });
