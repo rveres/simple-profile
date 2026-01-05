@@ -165,6 +165,7 @@ function switch_lang(lang) {
     document.getElementById("email-caption"),
     document.getElementById("github-link"),
     document.getElementById("linkedin-link"),
+    document.getElementById("lol-link"),
     document.getElementById("magic-link"),
     document.getElementById("copyright-text"),
   ];
