@@ -34,14 +34,14 @@ Miscellaneous:
 
 For three weeks, it is probably best to do the usual trip through Japan, starting in Tokyo and then moving down to Kyoto/Osaka and then moving further south to Hiroshima and possibly Kyushu. There are some great recommended trips for this time period online (such as this one: https://thenavigatio.com/3-week-japan-itinerary/), although I think a place like Kobe isn’t absolutely essential; I have placed my recommendations and notes below. 
 
-- Hokkaido, Northern Honshu (Tohoku) 
+Hokkaido, Northern Honshu (Tohoku) 
     - These places are not as dense, so you will probably pass by here. However, there are some small places with nice places to view. 
     - Sapporo and Hakodate in Hokkaido are more laid back with some nice views. 
     - Akita, Aomori, and Morioka each have a few landmarks and are amazing in the wintertime. 
     - Yamagata and Fukushima have some great natural sights and landmarks (Naruko Onsen, Yamadera Temple). Sendai is also the main city in Tohoku and is more laid back than Tokyo. 
     - Again, you will probably pass by this area, but if you want more information, I am more than happy to provide it. 
 
-- *Tokyo* (of course). Enough has been said by online posts; also, it is worth just walking around to get a feel for the city. 
+*Tokyo* (of course). Enough has been said by online posts; also, it is worth just walking around to get a feel for the city. 
     - Shinjuku/Shibuya are the “big city” feel; they can also get a bit crazy for me 
     - Akihabara: any kind of fan group you can imagine; the “edgy” part of Tokyo 
     - Harajuku, Meiji shrine, and Yoyogi Park are also nice, just a bit touristy 
@@ -50,30 +50,30 @@ For three weeks, it is probably best to do the usual trip through Japan, startin
     - Asakusa/Tawaramachi/Sensoji temple: great place to buy the famous Japanese knives, although the shrine can get a bit crowded at times. 
     - Check out recommendations online of course, these are just the places I liked to hang around. 
 
-- Day trips from Tokyo 
+Day trips from Tokyo 
     - *Hakone*: great onsens (Japanese spas)—note that many prohibit tattoos. You will want to buy/rent a small onsen towel before you go in. Some onsens can be quite strict about formalities; I recommend looking up the etiquette, etc. online. Hakone is where people who live in and around Tokyo go for their relaxing escape. 
     - Kawaguchiko: One of the famous five Fuji lakes, it has some spectacular views. This is best to go by car, however. 
     - *Enoshima/Kamakura*: A great place to view a beautiful coastal sunset on a clear day and to see the Kotoku-in. 
     - Yokohama: Japan’s second largest city and basically just part of the greater Tokyo area. It is nice to walk around the harbor, and the food can be somewhat less expensive (there are some great izakayas here). 
 
-- Central Japan 
+Central Japan 
     - You probably will only pass through here on your journey, but here are some notable places. 
     - Kanazawa and Ishikawa prefecture: amazing sea food and history. Kanazawa has a great market for fresh sea food (uni, or sea urchin, as well as clams and just about any fish or eel you can think of). There is a great samurai district and many historical places you can check out as well. For a day trip, Shirakawa-go is quite nice (just a bit hard to reach—but the bus ride there gave me some of the most incredible views I have ever seen in Japan) and full of history. Toyama in the surrounding area is also nice. 
     - Nakasendo Trail: the old trail from Kyoto to Tokyo and maybe the favorite trip I did in Japan. I hiked with a friend from Nakatsugawa near Nagoya all the way to Matsumoto. The main attractions are post towns like Magome-juku, Tsumago-juku, and Narai-juku, which can also be visited by car. Here is a great video: https://www.youtube.com/watch?v=9Q-Y6Dtuj7U. 
 
-- Western Japan 
+Western Japan 
     - *Kyoto*: No matter how much time you spend here, you will not be able to see all of it. This is traditional Japan at its best, and enough has been said online that I cannot really say more. 
     - *Osaka*: Tokyo’s little brother, so to speak. The vibe is completely different (people are much friendlier and more laid back). Like Tokyo, it is worth just walking around; there is also great food here (like Takoyaki, or fish balls). 
     - *Nara*: land of the deer and some impressive landmarks. There is not as much to do compared to Kyoto, but it is so close that it is worth a visit, just to see the friendly deer. 
 
-- Southern Japan 
+Southern Japan 
     - Okayama: this is on the Shinkansen down to Hiroshima, so it may be worth the stop to check out the Okayama Castle and the big garden. 
     - *Hiroshima*: A lot of history, but since the city was completely rebuilt, it also feels more modern. For the landmarks, I recommend going online. A great day trip is Itsukushima/Miyajima, the island which has friendly deer and the very famous shrine that appears to float on the water. It can be accessed by a short ferry ride for which you can use your IC card. 
 
-- Shikoku 
+Shikoku 
     - I did not get here on my travels, but Shikoku is best experienced by car. There is a very old trail of many temples, as well as some incredible natural sights across the island. Kagawa prefecture especially is known for some amazing sights, especially of the sea. You can also see the smaller islands and the big network of bridges that looks quite fantastic. 
 
-- Kyushu 
+Kyushu 
     - This island is right below Honshu, and it is more laid back than places in Honshu such as Tokyo. It has some great food and great onsens; just anticipate the heat and humidity, especially in the summertime! 
     - Fukuoka: Kyushu’s big city. You can find some good food here, and it is worth looking around for a day. 
     - Nagasaki: a lot of history for many reasons: the atomic bombing, as well as the Dutch trading posts and presence of Christians. I quite love Nagasaki, since the vibe is much more 1980’s “old” Japan (be careful, the bus drivers can get quite crazy, however). 
