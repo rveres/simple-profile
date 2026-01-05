@@ -1,32 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>lol</title>
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      max-width: 700px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="lol: list of links" />
+    <title>lol: list_of_links</title>
+    <link rel="stylesheet" href="./styles/lol.css" />
 </head>
 <body>
-  <h1>lol</h1>
-  <ul id="list"></ul>
+    <a href="/" class="lang-link">home</a>
+    <h1>lol: list_of_links</h1>
+    <p>A compilation of notes/links I find interesting. After pasting my stream of consciousness just about everywhere, I've settled on this page as a way to ensure my notes don't get lost. I make no guarantee the links work--check before you jump!</p>
+    <ul id="list">loading...</ul>
 
-  <script>
-    fetch("https://gist.githubusercontent.com/rveres/532aac6b6e1872cf2abb16884d3a5128/raw/lol.txt")
-      .then(r => r.text())
-      .then(text => {
+    <div class="footer-wrapper">
+      <p id="copyright-text" class="copyright">
+        © 2026 Robert Veres.
+      </p>
+    </div>
+
+    <script>
+    const RAW_URL =
+        "https://gist.githubusercontent.com/rveres/532aac6b6e1872cf2abb16884d3a5128/raw/lol.txt";
+    const url = RAW_URL + "?t=" + Date.now();
+
+    function linkify(text) {
+        // Match words starting with http, https, or www
+        const urlRegex = /\b((https?:\/\/|www\.)[^\s<]+)/gi;
+
+        return text.replace(urlRegex, (match) => {
+        const href = match.startsWith("www.")
+            ? "https://" + match
+            : match;
+
+        return `<a href="${href}" target="_blank" rel="noopener noreferrer">${match}</a>`;
+        });
+    }
+
+    fetch(url, { cache: "no-store" })
+        .then(r => r.text())
+        .then(text => {
         document.getElementById("list").innerHTML =
-          text
+            text
             .split("\n")
             .filter(Boolean)
-            .map(line => `<li>${line.replace(/^-\s*/, "")}</li>`)
+            .map(line => {
+                const clean = line.replace(/^-\s*/, "");
+                return `<li>${linkify(clean)}</li>`;
+            })
             .join("");
-      });
-  </script>
+        });
+    </script>
 </body>
 </html>

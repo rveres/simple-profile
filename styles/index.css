@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'Sysfont';
-    src: url('fonts/sysfont.woff2') format('woff2'),
-        url('fonts/sysfont.woff') format('woff');
+    src: url('../fonts/sysfont.woff2') format('woff2'),
+        url('../fonts/sysfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'W95fa';
-    src: url('fonts/w95fa.woff2') format('woff2'),
-        url('fonts/w95fa.woff') format('woff');
+    src: url('../fonts/w95fa.woff2') format('woff2'),
+        url('../fonts/w95fa.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
