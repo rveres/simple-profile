@@ -14,14 +14,6 @@
     font-style: normal;
 }
 
-.cjk-font {
-    font-family: "Noto Sans CJK SC", "Microsoft YaHei", "SimHei", "Meiryo", "MS PGothic", "Arial Unicode MS", Arial, sans-serif;
-}
-
-.ru-font {
-    font-family: Arial, sans-serif;
-}
-
 body {
     min-height: 100%;
     margin-top: 4vh;

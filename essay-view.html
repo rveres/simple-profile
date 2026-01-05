@@ -3,18 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <title>Essay</title>
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      max-width: 700px;
-      margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.6;
-    }
-    pre {
-      white-space: pre-wrap;
-    }
-  </style>
+  <link rel="stylesheet" href="./styles/essay-view.css" />
 </head>
 <body>
   <a href="/" class="home-link">home</a>
@@ -38,9 +27,29 @@
       fetch(`/essays/${file}`)
         .then(r => r.text())
         .then(text => {
-          document.getElementById("content").innerHTML =
-            `<pre>${escapeHtml(text)}</pre>`;
+          const html = render(text);
+          document.getElementById("content").innerHTML = html;
         });
+    }
+
+    function render(text) {
+      // Escape HTML first (important)
+      let safe = escapeHtml(text);
+
+      // **bold**
+      safe = safe.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+      
+      // _italic_ or *italic*
+      safe = safe.replace(
+        /(\*|_)([^*_]+)\1/g,
+        "<em>$2</em>"
+      );
+
+      // Preserve paragraphs
+      return safe
+        .split("\n\n")
+        .map(p => `<p>${p.replace(/\n/g, "<br>")}</p>`)
+        .join("");
     }
 
     function escapeHtml(str) {

@@ -16,9 +16,10 @@
 
 body {
     min-height: 100%;
-    margin-top: 4vh;
-    margin-left: 5%;
-    margin-right: 5%;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.6;
     text-align: left;
     overflow-wrap: break-word;
     font-family: "Sysfont", "Times New Roman";
@@ -37,9 +38,8 @@ h1 {
     font-family: "W95fa";
 }
 
-li {
-    margin-bottom: 0.6em;
-    line-height: 1.15;
+#content {
+    font-family: system-ui, sans-serif;
 }
 
 .footer-wrapper {
