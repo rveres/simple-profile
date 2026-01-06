@@ -1,5 +1,15 @@
 [
   {
+    "title": "Recommendations for Japan",
+    "file": "japan.md",
+    "date": "2023-06-13"
+  },
+  {
+    "title": "Emotional Memory and Learning",
+    "file": "learning.md",
+    "date": "2022-05-02"
+  },
+  {
     "title": "Meaningful",
     "file": "meaningful.md",
     "date": "2020-02-30"
@@ -13,10 +23,5 @@
     "title": "Rhetorical essay: A Journey Into the Unknown",
     "file": "research.md",
     "date": "2019-05-08"
-  },
-  {
-    "title": "Recommendations for Japan",
-    "file": "japan.md",
-    "date": "2023-06-13"
   }
 ]
