@@ -5,13 +5,18 @@
     "date": "2020-02-30"
   },
   {
-    "title": "Recommendations for Japan",
-    "file": "japan.md",
-    "date": "2023-06-13"
-  },
-  {
     "title": "Poem: Five Feet Under",
     "file": "poem.md",
     "date": "2020-01-30"
+  },
+  {
+    "title": "Rhetorical essay: A Journey Into the Unknown",
+    "file": "research.md",
+    "date": "2019-05-08"
+  },
+  {
+    "title": "Recommendations for Japan",
+    "file": "japan.md",
+    "date": "2023-06-13"
   }
 ]
