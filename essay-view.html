@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <title>Essay</title>
   <link rel="stylesheet" href="./styles/essay-view.css" />
 </head>
+
 <body>
   <a href="/" class="home-link">home</a>
   <a href="/essays" class="home-link">essays</a>
@@ -13,10 +15,10 @@
 
   <div class="footer-wrapper">
     <p id="copyright-text" class="copyright">
-        © 2026 Robert Veres.
+      © 2026 Robert Veres.
     </p>
   </div>
-  
+
   <script>
     const params = new URLSearchParams(window.location.search);
     const file = params.get("file");
@@ -38,7 +40,7 @@
 
       // **bold**
       safe = safe.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
-      
+
       // _italic_ or *italic*
       safe = safe.replace(
         /(\*|_)([^*_]+)\1/g,
@@ -71,4 +73,5 @@
     }
   </script>
 </body>
+
 </html>
