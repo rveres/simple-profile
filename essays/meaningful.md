@@ -1,4 +1,4 @@
-The following is an essay written as I applied to university in 2019/2020.
+The following is an essay written as I applied to university in Fall 2019.
 
 ///
 

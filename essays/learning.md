@@ -1,4 +1,4 @@
-The following is an essay written for the class Introduction to Cognitive Science during my second year of university (May 2022).
+The following is an essay written for the class *Introduction to Cognitive Science* during my second year of university (May 2022).
 
 ///
 
