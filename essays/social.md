@@ -2,7 +2,7 @@ The following is an essay written for the class *Computing, Society, and Profess
 
 ///
 
-Social Media Restriction Motivated By Trends In Adolescent Depression
+**Social Media Restriction Motivated By Trends In Adolescent Depression**
 
 ///
 
