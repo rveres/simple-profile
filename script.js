@@ -127,16 +127,6 @@ const TRANSLATIONS = {
     "copyright-text":
       "© 2026 Veres Robert.<br/>Ảnh chụp bằng Canon AE-1 Program hoặc Ricoh FF-3D AF Super.",
   },
-  de: {
-    "name-title": "Robert Veres",
-    "email-caption": "me [@] robertveres.com",
-    "github-link": "github",
-    "linkedin-link": "linkedin",
-    "essay-link": "aufsätze",
-    "magic-link": "magie!",
-    "copyright-text":
-      "© 2026 Robert Veres.<br/>Bilder aufgenommen mit Canon AE-1 Program oder Ricoh FF-3D AF Super.",
-  },
   ru: {
     "name-title": "Роберт Верес",
     "email-caption": "me [@] robertveres.com",
@@ -147,6 +137,26 @@ const TRANSLATIONS = {
     "copyright-text":
       "© 2026 Роберт Верес.<br/>Снимки, сделанные с помощью Канон AЭ-1 или Рикох ФФ-3D АФ Супер.",
   },
+  es: {
+    "name-title": "Roberto Veres",
+    "email-caption": "me [@] robertveres.com",
+    "github-link": "github",
+    "linkedin-link": "linkedin",
+    "essay-link": "ensayos",
+    "magic-link": "¡magia!",
+    "copyright-text":
+      "© 2026 Roberto Veres.<br/>Fotos tomadas con una Canon AE-1 Program o una Ricoh FF-3D AF Super.",
+  },
+  de: {
+    "name-title": "Robert Veres",
+    "email-caption": "me [@] robertveres.com",
+    "github-link": "github",
+    "linkedin-link": "linkedin",
+    "essay-link": "aufsätze",
+    "magic-link": "magie!",
+    "copyright-text":
+      "© 2026 Robert Veres.<br/>Bilder aufgenommen mit Canon AE-1 Program oder Ricoh FF-3D AF Super.",
+  }
 };
 
 num_cover_img = Object.keys(COVER_IMAGES_DICT).length;
