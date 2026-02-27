@@ -99,7 +99,7 @@ const TRANSLATIONS = {
   },
   cn: {
     "name-title": "罗伯特",
-    "email-caption": "3928225149 [@] qq.com",
+    "email-caption": "rveres [@] qq.com",
     "github-link": "github",
     "linkedin-link": "领英",
     "essay-link": "论文",
